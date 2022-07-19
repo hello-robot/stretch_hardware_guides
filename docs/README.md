@@ -1,29 +1,8 @@
 ![](./images/banner.png)
 
 # Overview
-
-The stretch_body repository includes Python packages that allow a developer to interact with the hardware of the Stretch RE1 robot. These packages are:
- * **hello-robot-stretch-body**: python library to interface with Stretch RE1
- * **hello-robot-stretch-body-tools**: useful commandline tools for using Stretch RE1
-
-Python2 version of packages can be installed by:
-```
-pip2 install -U hello-robot-stretch-body
-pip2 install -U hello-robot-stretch-body-tools
-```
-Python3 version of packages can be installed by:
-
-```
-pip3 install -U hello-robot-stretch-body
-pip3 install -U hello-robot-stretch-body-tools
-```
-
-See [docs.hello-robot.com](https://docs.hello-robot.com) for documentation on using Stretch RE1. In particular, see the [Stretch Body User Guide](stretch_body_guide.md) for information on using these packages.
-
-# Testing and Development
-
-See [Stretch Body's README](https://github.com/hello-robot/stretch_body/body/README.md) and [Stretch Body Commandline Tool's README](https://github.com/hello-robot/stretch_body/tools/README.md) for information on testing/developing these packages.
+The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gides) repository maintains documentation on the use and specifications of the Stretch hardware.
 
 ## License
+For details, see the LICENSE.md file in the root directory. All materials within this repository are licensed with the [GNU General Public License v3.0 (GNU GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html) except where other third-party licenses must apply.  
 
-Each subdirectory contains a LICENSE.md file that applies to the directory's contents. This software is intended for use with the Stretch RE1 mobile manipulator, which is a robot produced and sold by Hello Robot Inc. For further information including inquiries about dual licensing, please contact Hello Robot Inc.

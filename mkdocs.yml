@@ -72,8 +72,8 @@ extra:
       link: https://linkedin.com/company/hello-robot-inc
 
 nav:
- - Home: README.md
+ - Overview: README.md
  - Stretch Safety Guide: robot_safety_guide.md
  - Stretch Battery Maintenance Guide: battery_maintenance_guide.md
- - Stretch Robot User Guide: stretch_hardware_user_guide.md
+ - Stretch Robot User Guide: robot_hardware_guide.md
  - Stretch DexWrist User Guide: dex_wrist_user_guide.md

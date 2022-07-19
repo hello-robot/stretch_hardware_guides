@@ -1,6 +1,6 @@
-site_name: Stretch Body
-site_url: https://docs.hello-robot.com/stretch_body
-site_description: "Hello Robot Stretch Body Documentation"
+site_name: Stretch Hardware Guides
+site_url: https://docs.hello-robot.com/stretch_hardware_guides
+site_description: "Hello Robot Stretch Hardware Guides"
 copyright: 'Copyright &copy; 2022 Hello Robot Inc'
 site_author: Hello Robot Inc
 use_directory_urls: True
@@ -73,9 +73,7 @@ extra:
 
 nav:
  - Home: README.md
- - Stretch Body User Guide: stretch_body_guide.md
- - Stretch Body API: stretch_body_api.md
- - Working with Collision Avoidance: collision_avoidance_tutorial.md
- - Working with Dynamixels: dynamixel_tutorial.md
- - Working with Parameters: parameters_tutorial.md
- - Working with Custom Wrist DOF: ./extending_wrist_dof/README.md
+ - Stretch Safety Guide: robot_safety_guide.md
+ - Stretch Battery Maintenance Guide: battery_maintenance_guide.md
+ - Stretch Robot User Guide: stretch_hardware_user_guide.md
+ - Stretch DexWrist User Guide: dex_wrist_user_guide.md

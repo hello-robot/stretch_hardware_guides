@@ -32,7 +32,7 @@ The robot may drive off stairs, push or pull itself over with its telescoping ar
 
 ### Stretch Should Not Be Lifted By A Single Person
 
-Stretch with the standard gripper weighs about 50.5lb, so two or more people should lift and carry the robot. A single person can move the robot around by enabling the runstop button, tilting it over, and rolling it on flat ground. 
+Stretch with the standard gripper weighs about 23Kg (50.5lb), so two or more people should lift and carry the robot. A single person can move the robot around by enabling the runstop button, tilting it over, and rolling it on flat ground. 
 
 **At least two people should lift and carry the robot when needed.**
 

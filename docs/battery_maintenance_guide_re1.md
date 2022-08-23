@@ -9,6 +9,10 @@ The run time for a fully charged system is dependent on the load use case. The m
 
 A fully charged robot running a high CPU load can run approximately 2 hours before requiring a recharge.
 
+A fully charged robot powered on but with minimal load can run approximately 5 hours before requiring a recharge.
+
+
+
 
 ## Charger
 

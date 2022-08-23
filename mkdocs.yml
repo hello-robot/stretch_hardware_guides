@@ -74,6 +74,8 @@ extra:
 nav:
  - Overview: README.md
  - Stretch Safety Guide: robot_safety_guide.md
- - Stretch Battery Maintenance Guide: battery_maintenance_guide.md
- - Stretch Robot User Guide: robot_hardware_guide.md
+ - Stretch RE1 Battery Maintenance Guide: battery_maintenance_guide_re1.md
+ - Stretch RE2 Battery Maintenance Guide: battery_maintenance_guide_re2.md
+ - Stretch RE1 Hardware User Guide: hardware_guide_re1.md
+ - Stretch RE2 Hardware User Guide: hardware_guide_re2.md
  - Stretch DexWrist User Guide: dex_wrist_user_guide.md

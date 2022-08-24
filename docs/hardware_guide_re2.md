@@ -128,8 +128,6 @@ Two mounting holes are provided inside the trunk. These allow the user to strain
 
 
 
-![image alt text](./images/re2/base_mount_back.png)
-
 ### Head
 
 The head provides the audio interface to the robot, a pan tilt depth camera, a runstop, as well as a developer interface to allow the addition of additional user hardware.

@@ -32,7 +32,19 @@ Stretch utilizes four of the available modes on these chargers.
 | SUPPLY  | 1) Power the robot during tethered use<br/>2) Repair damaged batteries. |
 | REPAIR  | Repair damaged batteries.                                    |
 
+```
+=== "Unordered list"
 
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Ordered list"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+```
 
 ### NOCO Genius 10 - Interface
 

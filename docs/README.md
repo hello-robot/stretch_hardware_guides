@@ -15,6 +15,6 @@ The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gi
 
 ## License
 
-For details, see the LICENSE.md file in the root directory. 
+For details, see the [LICENSE.md](https://github.com/hello-robot/stretch_hardware_guides/blob/master/LICENSE.md) file in the root directory. 
 
 ![](./images/stretch_top_view.png)

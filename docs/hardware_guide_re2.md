@@ -1,10 +1,10 @@
 # Stretch RE2 - Hardware Guide
 
-This manual provides the engineering data and user guidance for working with the Hello Robot Stretch re2 hardware.  
+This manual provides the engineering data and user guidance for working with the Hello Robot Stretch RE2 hardware.  
 
 ### Disclaimer
 
-The Hello Robot Stretch is intended for use in the research of mobile manipulation applications by users experienced in the use and programming of research robots. This product is not intended for general use in the home by consumers, and lacks the required certifications for such use. Please see the section on   Regulatory Compliance for further details.
+The Hello Robot Stretch is intended for use in the research of mobile manipulation applications by users experienced in the use and programming of research robots. This product is not intended for general use in the home by consumers, and lacks the required certifications for such use. Please see the section on Regulatory Compliance for further details.
 
 ## Functional Specification
 
@@ -72,9 +72,7 @@ The base has a 9 DOF IMU using the 9 DOF FXOS8700 + FXAS21002 chipset. The IMU o
 
 ### Trunk
 
-Development and charge ports are at the back of the base in the trunk. The trunk cover slides into place vertically and is non-latching.
-
-The trunk height has been designed to accommodate one or more USB based Intel Neural Compute Sticks.
+Development and charge ports are at the back of the base in the trunk. 
 
 Two mounting holes are provided inside the trunk. These allow the user to strain relief tethered cables (eg, HDMI and keyboard) during development. It is recommended to strain relief such cables to prevent accidental damage during base motion.
 
@@ -118,10 +116,17 @@ Two mounting holes are provided inside the trunk. These allow the user to strain
   </tr>
   <tr>
     <td>G</td>
-    <td>Mounting points</td>
-    <td>M4 threaded holes</td>
+    <td>LED Light Bar</td>
+    <td>Indicates battery voltage</td>
+  </tr>
+   <tr>
+    <td>H</td>
+    <td>12V access plug</td>
+    <td>Allows customer cable access to 12V Aux on Pimu PCBA</td>
   </tr>
 </table>
+
+
 
 ![image alt text](./images/re2/base_mount_back.png)
 
@@ -149,14 +154,9 @@ Two Dynamixel XL430-W250-T servos</td>
     <td></td>
   </tr>
   <tr>
-    <td>C</td>
-    <td>Mounting holes</td>
-    <td>2x M4 threaded, spacing 25mm</td>
-  </tr>
-  <tr>
     <td>D</td>
     <td>Developer Interface</td>
-    <td>USB2.0-A with 5V@500mA fused 
+    <td>Volume control, USB2.0-A with 5V@500mA fused 
 JST XHP-2,  12V@3A fused
 Pin 1: 12V
 Pin 2: GND</td>
@@ -171,12 +171,8 @@ Pin 2: GND</td>
     <td>Runstop</td>
     <td></td>
   </tr>
-  <tr>
-    <td>G</td>
-    <td>Audio volume control</td>
-    <td></td>
-  </tr>
 </table>
+
 
 
 #### Pan Tilt
@@ -210,6 +206,10 @@ The nominal ‘zero’ position is of the head is shown below, along with the co
 
 #### ReSpeaker Microphone Array
 The ReSPeaker has 12 RGB LEDs that can be controlled programatically. By default they display sound intensity and direction of the microphone array. The ReSpeaker has 4 mems microphones mounted on a 64.61mm circle at 45 degree spacing. The drawing below shows the position and orientation of the microphone array relative to the head pan axis.
+
+#### Mounting Points
+
+The top of the head includes 3x M4 threaded mounting points as shown below.
 
 ![image alt text](./images/re2/stretch_head_respeaker.png)
 
@@ -246,7 +246,16 @@ The lift degree of freedom provides vertical translation of the arm. It is drive
     <td>Aruco Tag</td>
     <td>Size 40x40 mm</td>
   </tr>
+      <tr>
+    <td>D</td>
+    <td>Developer ports</td>
+    <td>USB2.0-A with 5V@500mA fused ; 
+JST XHP-2,  12V@3A fused
+Pin 1: 12V
+Pin 2: GND</td>
+  </tr>
 </table>
+
 
 
 ### Arm
@@ -289,6 +298,10 @@ The tool plate allows for mounting on the top or the bottom using the M2 bolt pa
 * [FR12-S102K](http://www.robotis.us/fr12-s102k-set/)
 * [FR12-S101K](http://www.robotis.us/fr12-s101k-set/)
 
+The tool plate includes a 'Zero indicator'. This mark indicates the forward position of the tool. It will point in the direction of the arm extension when the wrist yaw joint is at its zero position.
+
+In addition, the tool plate includes two index holes. These can be used to index a tool (e.g., Stretch Gripper) during installation. Compatible pins on the tool ensure that it is installed at the correct orientation.
+
 ![image alt text](./images/re2/tool_mount_rs.png)
 
 #### Wrist Yaw Range of Motion
@@ -328,7 +341,7 @@ In addition, the firmware can be configured for other pin functions, including:
 
 The [Stretch Firmware Manual](https://github.com/hello-robot/stretch_firmware) covers this modification.
 
-**The header pins utilize 3V3 TTL logic. They do not have interface protection (eg, ESD, over-voltage, shorts). It is possible to damage your robot if pin specifications are exceeded **
+**The header pins utilize 3V3 TTL logic. They have limited nterface protection (eg, ESD, over-voltage, shorts). It is possible to damage your robot if pin specifications are exceeded **
 
 The pin mapping is:
 
@@ -417,8 +430,6 @@ The expansion DIO schematic shown below.
 ![image alt text](./images/re2/wrist_mount_top_rs.png)
 
 
-
-![image alt text](./images/re2/wrist_mount_end_rs.png)
 
 ### Gripper
 

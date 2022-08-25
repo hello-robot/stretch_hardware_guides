@@ -13,24 +13,37 @@ A fully charged robot powered on but with minimal load can run approximately 5 h
 
 
 
-## The Battery Light Bar
+## State of Battery Charge 
 
-Stretch RE2 introduces an LED light bar on the base that provides an indication of the battery state. For more details see in the Stretch Hardware Guide.
+An accurate measure of the battery charge isn't available on Stretch (as this requires a coulomb counting system). A coarse approximation of battery charge is given by the battery voltage. 
 
+For RE2 during normal operation with a moderate load the relationship between voltage and charge is roughly:
 
+| Voltage      | Charge | LED Light Bar |
+| ------------ | ------ | ------------- |
+| 11.5 - 13.4V | 80%+   | Bright green  |
+| 11.0 - 11.5V | 60%+   | Yellow        |
+| 10.5 - 11.0V | 40%+   | Orange        |
+| Below 10.5V  | <40%   | Red           |
 
-| Mode       | Function                                                     |
-| ---------- | ------------------------------------------------------------ |
-|            | Charger not charging the robot                               |
-| Charging   | Charging  robot powered down                                 |
-| Runstopped | 1) Power the robot during tethered use<br/>2) Repair damaged batteries. |
-|            | Repair damaged batteries.                                    |
+As shown below, the LED lightbar color provides an indication of the battery voltage. 
 
+![alt_text](images/re2/lightbar_voltage.png )
 
+## When To Plug in the Charger
 
+We recommend plugging in the charger whenever:
 
+- The battery voltage is below 11V (lightbar is orange). 
+- The robot is not running untethered
+- The robot is producing a periodic beeping sound
 
-### 
+## Accidental Full Discharge
+
+Stretch includes a few feature to help prevent accidental full discharge (for example, if the robot is left on overnight not plugged to its charger)
+
+- **Audible warning**: Stretch will beep every 2 seconds if the battery voltage drops below 10.5V
+- **Hard power off**: Stretch will completely power off if the battery voltage drops below 9.75V
 
 ## Charger
 
@@ -78,15 +91,6 @@ We recommend following the best practices below to avoid deep discharge of the b
 
 
 
-
-## When To Plug in the Charger
-
-We recommend keeping the charger attached whenever the robot is not running untethered.
-
-When the battery voltage drops below ‘low voltage’ threshold the robot will produce an intermittent double beep sound. This is a reminder to the user to plug in the charger.
-
-If desired, the intermittent beep functionality can be disabled by setting the `stop_at_low_voltage` field in the User YAML to `0`.
-
 ## Troubleshooting
 
 | Issue                                                        | How to Diagnose                                              | Cause                                                        | Corrective Procedure                                         |
@@ -122,18 +126,18 @@ The recommended power down procedure is
 
 ### Replacing the Fuse
 
-Stretch RE2 has two automotive fuses inside the base that may need to be replaced. The type of fuse depends on your build version of the RE2
+Stretch RE2 has two automotive fuses inside the base that may need to be replaced. 
 
-| Build Version | Fuse Type                | Recommended Fuse        |
-| ------------- | ------------------------ | ----------------------- |
-| MItski        | 7.5A ATM Fast Blow Blade | Bussman VP/ATM-7-1/2-RP |
+| Fuse Type                | Recommended Fuse        |
+| ------------------------ | ----------------------- |
+| 7.5A ATM Fast Blow Blade | Bussman VP/ATM-7-1/2-RP |
 
 The fuse locations are shown below.  For guidance on replacing the fuse, contact Hello Robot support: [support@hello-robot.com](mailto:support@hello-robot.com).
 
 
 
 
-![alt_text](images/base_fuse.png)
+![alt_text](images/re2/fuse_replacement.png)
 
 
 
@@ -165,9 +169,15 @@ $ stretch_robot_battery_check.py
 
 **Measuring Battery Voltage with a DMM**
 
-When troubleshooting a deeply discharged battery it may be useful to directly measure the battery voltage with a digital multimeter (DMM). To do this we recommend detaching the charger cable at its inline connector and applying the DMM to the connector contacts as shown.
+When troubleshooting a deeply discharged battery it may be useful to directly measure the battery voltage with a digital multimeter (DMM). To do this we recommend 
+
+- Detach the charger cable at its inline connector 
+- Apply the DMM to the connector contacts as shown
+- Plug the charge cable into the charge port of the robot
 
 NOTE: Caution should be taken as it is possible to short the battery when doing this. 
+
+
 
 
 ![alt_text](images/base_dmm.png)

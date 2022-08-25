@@ -13,7 +13,8 @@ The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gi
 | [Stretch RE2 Battery Maintenance Guide](battery_maintenance_guide_re2.md) | Guide to care for and charge the Stretch RE2 Batteries       |
 | [Stretch RE1 Hardware Guide](hardware_guide_re1.md)          | Specification and functional description of the Stretch RE1 Hardware |
 | [Stretch RE2 Hardware Guide](hardware_guide_re2.md)          | Specification and functional description of the Stretch RE2 Hardware |
-| [Stretch Dex Wrist Guide](dex_wrist_guide.md)                | Installing, configuring, and working with the Stretch Dex Wrist |
+| [Stretch RE1 Dex Wrist Guide](dex_wrist_guide_re1.md)        | Installing, configuring, and working with the Stretch RE1 Dex Wrist |
+| [Stretch RE2 Dex Wrist Guide](dex_wrist_guide_re2.md)        | Installing, configuring, and working with the Stretch RE2 Dex Wrist |
 
 ## License
 

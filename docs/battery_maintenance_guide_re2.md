@@ -1,5 +1,5 @@
 
-# Battery Maintenance Guide - Stretch RE2
+# Stretch RE2 - Battery Maintenance Guide 
 
 ## Overview
 

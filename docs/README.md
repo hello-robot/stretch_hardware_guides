@@ -8,7 +8,7 @@ The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gi
 
 | Guide                                                        | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Stretch Safety Guide ](safety_guide.md)                     | Safety guide for users of the Stretch                        |
+| [Stretch Safety Guide ](https://docs.hello-robot.com/0.2/stretch-tutorials/getting_started/safety_guide/)                     | Safety guide for users of the Stretch                        |
 | [Stretch RE1 Battery Maintenance Guide](battery_maintenance_guide_re1.md) | Guide to care for and charge the Stretch RE1 Batteries       |
 | [Stretch RE2 Battery Maintenance Guide](battery_maintenance_guide_re2.md) | Guide to care for and charge the Stretch RE2 Batteries       |
 | [Stretch RE1 Hardware Guide](hardware_guide_re1.md)          | Specification and functional description of the Stretch RE1 Hardware |

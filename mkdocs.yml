@@ -74,7 +74,7 @@ extra:
 
 nav:
  - Overview: README.md
- - Stretch Safety Guide: safety_guide.md
+ - Stretch Safety Guide: https://docs.hello-robot.com/0.2/stretch-tutorials/getting_started/safety_guide/
  - Stretch RE1:
      - Battery Maintenance Guide: battery_maintenance_guide_re1.md
      - Hardware Guide: hardware_guide_re1.md

@@ -20,7 +20,7 @@ The Stretch Dex Wrist is an optional add-on to the RE2. It adds pitch and roll d
 
 The Dex Wrist requires added attention to safety. Its additional dexterity introduces new pinch points around the wrist pitch and roll degrees of freedom.
 
-**NOTE:** Please review the [Robot Safety Guide](safety_guide.md) prior to working with the Dex Wrist.
+**NOTE:** Please review the [Robot Safety Guide](https://docs.hello-robot.com/0.2/stretch-tutorials/getting_started/safety_guide/) prior to working with the Dex Wrist.
 
 In addition to these precautions, the Dex Wrist requires attention to pinch points between:
 

@@ -74,8 +74,6 @@ The base has a 9 DOF IMU using the 9 DOF FXOS8700 + FXAS21002 chipset. The IMU o
 
 Development and charge ports are at the back of the base in the trunk. 
 
-Two mounting holes are provided inside the trunk. These allow the user to strain relief tethered cables (eg, HDMI and keyboard) during development. It is recommended to strain relief such cables to prevent accidental damage during base motion.
-
 ![image alt text](./images/re2/trunk_detail_rs.png)
 
 <table>
@@ -217,7 +215,13 @@ The runstop allows the user to pause the motion of the four primary DOF (base, l
 
 ### Lift
 
-The lift degree of freedom provides vertical translation of the arm. It is driven by a closed loop stepper motor, providing smooth and precise motion through a low gear-ratio belt drive. The ‘shoulder’ includes two mounting holes and a small delivery tray.
+The lift degree of freedom provides vertical translation of the arm. It is driven by a closed loop stepper motor, providing smooth and precise motion through a low gear-ratio belt drive. The ‘shoulder’ includes four mounting holes and a small delivery tray.
+
+
+
+**NOTE**: When using the shoulder mounting screws do not use M4 bolts longer than 7mm in length. Otherwise damage may occur. 
+
+
 
 ![image alt text](./images/re2/lift_detail_rs.png)
 
@@ -237,7 +241,7 @@ The lift degree of freedom provides vertical translation of the arm. It is drive
   <tr>
     <td>B</td>
     <td>Mounting holes</td>
-    <td>Threaded M4. Spacing 34.5 mm.</td>
+    <td>Threaded M4. Length not to exceed 7mm.</td>
   </tr>
   <tr>
     <td>C</td>
@@ -253,6 +257,7 @@ Pin 1: 12V
 Pin 2: GND</td>
   </tr>
 </table>
+
 
 
 
@@ -605,6 +610,5 @@ Per[ FCC 47 CFR, Part 15, Subpart B, section 15.103(c)](https://www.law.cornell.
 [OET BULLETIN NO. 62](https://transition.fcc.gov/bureaus/oet/info/documents/bulletins/oet62/oet62rev.pdf), titled "UNDERSTANDING THE FCC REGULATIONS FOR COMPUTERS AND OTHER DIGITAL DEVICES" from December 1993 provides further clarification of the Section 15.103(c) exemption: “*Test equipment* includes devices used for maintenance, research, evaluation, simulation and other analytical or scientific applications in areas such as industrial plants, public utilities, hospitals, universities, laboratories, automotive service centers and electronic repair shops.”
 
 ------
-<div align="center"> All materials are Copyright 2022 by Hello Robot Inc. Hello Robot and Stretch are registered trademarks. The Stretch RE1 and RE2 robots are covered by U.S. Patent 11,230,000 and other patents pending.</div>
-
+<div align="center"> All materials are Copyright 2022 by Hello Robot Inc. Hello Robot and Stretch are registered trademarks.</div>
 

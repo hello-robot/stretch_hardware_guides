@@ -2,7 +2,6 @@
 # Stretch RE1 - Battery Maintenance Guide
 
 ## Overview
-
 Stretch RE1 utilizes two [12V AGM SLA batteries](https://www.power-sonic.com/product/ps-1290/) that provide a combined 18AH of capacity. Maintaining an adequate level of charge on the battery system will enhance the battery lifetime.
 
 The run time for a fully charged system is dependent on the load use case. The majority of battery power is consumed by the NUC computer as Stretch uses relatively low power motors.
@@ -11,11 +10,7 @@ A fully charged robot running a high CPU load can run approximately 2 hours befo
 
 A fully charged robot powered on but with minimal load can run approximately 5 hours before requiring a recharge.
 
-
-
-
 ## Charger
-
 Stretch ships with a NOCO Genius 10 charger. Earlier versions of Stretch use the NOCO G7200. These two chargers are functionally very similar.
 
 Please review the battery charger user manuals prior to following the guidance in this document. 
@@ -32,22 +27,7 @@ Stretch utilizes four of the available modes on these chargers.
 | SUPPLY  | 1) Power the robot during tethered use<br/>2) Repair damaged batteries. |
 | REPAIR  | Repair damaged batteries.                                    |
 
-```
-=== "Unordered list"
-
-    * Sed sagittis eleifend rutrum
-    * Donec vitae suscipit est
-    * Nulla tempor lobortis orci
-
-=== "Ordered list"
-
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
-```
-
 ### NOCO Genius 10 - Interface
-
 
 ![alt_text](images/NOCO_Genius10_UI.png "image_tooltip")
 
@@ -57,8 +37,6 @@ Stretch utilizes four of the available modes on these chargers.
 | 12V AGM | 1) From STANDBY, charger attached<br>2) Press MODE button repeatedly until 12V AGM indicator is illuminated |
 | SUPPLY  | 1) From STANDBY, charger not attached<br>2) Press and hold MODE button for 3s<br>3) Press MODE button until SUPPLY indicator is illuminated<br>4) Attach charger |
 | REPAIR  | 1) From STANDBY, charger attached<br>2) Press and hold MODE button for 3s<br/>3) Press MODE button until REPAIR indicator is illuminated |
-
-
 
 ### NOCO G7200 - Interface
 
@@ -72,7 +50,6 @@ Stretch utilizes four of the available modes on these chargers.
 | **REPAIR**  | 1) From STANDBY, charger attached<br>2) Press and hold MODE button for 3s<br/>3) Press MODE button until REPAIR indicator is illuminated |
 
 ## Charging Best Practices
-
 It is possible to accidentally deeply discharge the batteries by leaving the robot on for long durations without the charger attached. This is similar to leaving the lights on your car where the battery will continue to drain until fully discharged.
 
 We recommend following the best practices below to avoid deep discharge of the batteries and to ensure they have a long lifespan.
@@ -85,10 +62,7 @@ We recommend following the best practices below to avoid deep discharge of the b
 | **Robot is coming out of storage** | Attach charger in **12V AGM** mode and charge for 2-3 hours until charger reports 100% | SLA batteries naturally lose charge over time due to ‘self-discharge’. |
 
 
-
-
 ## When To Plug in the Charger
-
 We recommend keeping the charger attached whenever the robot is not running untethered.
 
 When the battery voltage drops below ‘low voltage’ threshold the robot will produce an intermittent double beep sound. This is a reminder to the user to plug in the charger.
@@ -105,10 +79,7 @@ If desired, the intermittent beep functionality can be disabled by setting the `
 | **Charger reports 100% charge but the batteries are discharged** | When the robot is powered down and the charger is connected in 12V AGM mode, the charger status shows 100%.  <br>However the robot fails to turn on properly. | Damage to the batteries (usually caused by excessively low voltage) may artificially raise the open circuit voltage of the battery, causing the battery to appear fully charged, while providing low capacity. | Proceed to the “Recovering from Low Battery Voltage” steps below. |
 | **Charger will not charge or stay in any mode.**             | When placed in 12V AGM, SUPPLY, or REPAIR  mode, it continually reverts to STANDBY mode after ~ 20 minutes. | Charger may be defective.                                    | Contact Hello Robot Support for a replacement.               |
 
-
-
 ### Recovering from Low Battery Voltage
-
 1. Turn off the robot power switch and detach the charger from the robot
 2. Place charger in SUPPLY Mode 
 3. Allow robot to charge for 4-8 hours, or up to 24 hours for extreme discharge
@@ -118,9 +89,7 @@ If desired, the intermittent beep functionality can be disabled by setting the `
 
 ## Additional Information
 
-
 ### Powering Down the Robot
-
 The recommended power down procedure is
 
 1. Place a clamp on the mast below the shoulder to prevent dropping
@@ -139,29 +108,16 @@ Stretch RE1 has an automotive fuse inside the base that may need to be replaced.
 
 The fuse location is shown below.  For guidance on replacing the fuse, contact Hello Robot support: [support@hello-robot.com](mailto:support@hello-robot.com).
 
-
-
-
 ![alt_text](images/base_fuse.png)
 
-
-
 ### Checking the Battery Charge
-
 The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. 
-
 
 ![alt_text](images/genius10_100pct.png)
 
-
-
-
 ![alt_text](images/g7200_100pct.png)
 
-
-
 ### Checking the Battery Voltage
-
 Battery voltage is not always an accurate indicator of battery charge but it can be a useful proxy. 
 
 A charged battery will typically report a voltage of 12-12.8V and will maintain that voltage across load conditions. Meanwhile, a partially charged battery may report anywhere from 10-12.8V but its voltage will drop rapidly when loaded.
@@ -183,13 +139,9 @@ When troubleshooting a deeply discharged battery it may be useful to directly me
 
 NOTE: Caution should be taken as it is possible to short the battery when doing this. 
 
-
 ![alt_text](images/base_dmm.png)
 
-
-
 ### Repairing Damaged Batteries
-
 It is possible for Stretch's batteries to become damaged due to repeated deep discharge. If the robot has continued issues maintaining a charge we recommend attempting the following procedure:
 
 1. Turn off the robot power switch and detach the charger from the robot
@@ -199,9 +151,7 @@ It is possible for Stretch's batteries to become damaged due to repeated deep di
 5. Allow robot to charge until the repair cycle completes and the charger returns to standby - up to 4 hours
 6. Place the charger back in 12V AGM mode and allow batteries to charger to 100%
 
-
 ### Replacing Dead Batteries
-
 It is possible for a mechanically skilled person to replace the Stretch batteries should it be necessary . Please contact Hello Robot Support for more information (support@hello-robot.com)
 
 ------

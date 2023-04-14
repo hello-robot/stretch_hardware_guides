@@ -143,7 +143,7 @@ The fuse locations are shown below.  For guidance on replacing the fuse, contact
 
 ### Checking the Battery Charge
 
-The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. 
+The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. Batteries are 100% fully charge when the green LED is not fading in and out.
 
 
 ![alt_text](images/genius10_100pct.png)
@@ -188,12 +188,16 @@ NOTE: Caution should be taken as it is possible to short the battery when doing 
 
 It is possible for Stretch's batteries to become damaged due to repeated deep discharge. If the robot has continued issues maintaining a charge we recommend attempting the following procedure:
 
-1. Turn off the robot power switch and detach the charger from the robot
-2. Place charger in SUPPLY Mode 
-3. Attach the charger and allow robot to charge for 4-8 hours
-4. Place the charger in REPAIR mode
-5. Allow robot to charge until the repair cycle completes and the charger returns to standby - up to 4 hours
-6. Place the charger back in 12V AGM mode and allow batteries to charger to 100%
+**CAUTION: The repair cycle procedure requires you to do a repair  cycle on one battery at a time, which means you need to unplug each  battery, perform the repair, and then repeat the process on the other  battery. If you fail to repeat the procedure on the other battery, there is a potential risk that high amounts of current may flow from the  repaired battery to the other one, causing damage to both the battery  and the system.**
+
+1. Turn off the robot power switch
+2. Attach the charger to the robot and set it to 12V AGM mode. Allow the robot to fully charge
+3. Detach the charger from the robot
+4. Unplug 1 battery from the robot. For guidance on how to access the battery connectors, please contact Hello Robot support: support@hello-robot.com
+5. Attach the charger and place it in REPAIR mode
+6. Place the charger in REPAIR mode
+7. Wait until the repair cycle has completed and the charger returns to standby - up to 4 hours
+8. Repeat steps 3 to 6 for the second battery
 
 
 ### Replacing Damaged Batteries

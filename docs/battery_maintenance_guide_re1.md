@@ -49,7 +49,16 @@ Stretch utilizes four of the available modes on these chargers.
 | **SUPPLY**  | 1) From STANDBY, charger not attached<br>2) Press and hold MODE button for 3s<br>3) Press MODE button until SUPPLY indicator is illuminated<br>4) Attach charger<br> |
 | **REPAIR**  | 1) From STANDBY, charger attached<br>2) Press and hold MODE button for 3s<br/>3) Press MODE button until REPAIR indicator is illuminated |
 
+### Checking the Battery Charge
+
+The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. Batteries are 100% fully charge when the green LED is not fading in and out.
+
+![alt_text](images/genius10_100pct.png)
+
+![alt_text](images/g7200_100pct.png)
+
 ## Charging Best Practices
+
 It is possible to accidentally deeply discharge the batteries by leaving the robot on for long durations without the charger attached. This is similar to leaving the lights on your car where the battery will continue to drain until fully discharged.
 
 We recommend following the best practices below to avoid deep discharge of the batteries and to ensure they have a long lifespan.
@@ -109,13 +118,6 @@ Stretch RE1 has an automotive fuse inside the base that may need to be replaced.
 The fuse location is shown below.  For guidance on replacing the fuse, contact Hello Robot support: [support@hello-robot.com](mailto:support@hello-robot.com).
 
 ![alt_text](images/base_fuse.png)
-
-### Checking the Battery Charge
-The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. Batteries are 100% fully charge when the green LED is not fading in and out.
-
-![alt_text](images/genius10_100pct.png)
-
-![alt_text](images/g7200_100pct.png)
 
 ### Checking the Battery Voltage
 Battery voltage is not always an accurate indicator of battery charge but it can be a useful proxy. 

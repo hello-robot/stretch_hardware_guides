@@ -74,6 +74,13 @@ Stretch utilizes four of the available modes on these chargers.
 | SUPPLY  | 1) From STANDBY, charger not attached<br>2) Press and hold MODE button for 3s<br>3) Press MODE button until SUPPLY indicator is illuminated<br>4) Attach charger |
 | REPAIR  | 1) From STANDBY, charger attached<br>2) Press and hold MODE button for 3s<br/>3) Press MODE button until REPAIR indicator is illuminated |
 
+### Checking the Battery Charge
+
+The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. Batteries are 100% fully charge when the green LED is not fading in and out.
+
+
+![alt_text](images/genius10_100pct.png)
+
 
 
 ## Charging Best Practices
@@ -138,17 +145,6 @@ The fuse locations are shown below.  For guidance on replacing the fuse, contact
 
 
 ![alt_text](images/re2/fuse_replacement.png)
-
-
-
-### Checking the Battery Charge
-
-The battery charger LEDs provide an approximate indicator of battery charge when it is in 12V AGM mode. Batteries are 100% fully charge when the green LED is not fading in and out.
-
-
-![alt_text](images/genius10_100pct.png)
-
-
 
 ### Checking the Battery Voltage
 

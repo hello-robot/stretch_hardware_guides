@@ -123,6 +123,7 @@ Development and charge ports are at the back of the base in the trunk.
     <td>Allows customer cable access to 12V Aux on Pimu PCBA</td>
   </tr>
 </table>
+
 ### 12V Access Plug
 
 The 12V access plug allows users to supply 12V power to an external device. This 12V power is directly connected to the battery and is not a regulated voltage supply. As the battery voltage decreases, the 12V access plug voltage also decreases. It is recommended that the user purchase a regulated voltage adapter to connect to this access plug and then connect the external device to the regulated voltage adapter, instead of connecting it directly to the 12V access plug. The maximum continuous current of the 12V access plug is 6A max.

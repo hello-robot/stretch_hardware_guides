@@ -3,7 +3,7 @@
 # Overview
 ![](./docs/images/stretch_top_view.png)
 
-The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gides) repository maintains documentation on the use and specifications of the Stretch RE1 & RE2 hardware.
+The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gides) repository maintains documentation on the use and specifications of the Stretch mobile manipulators hardware.
 
 === "Stretch RE2"
     
@@ -28,7 +28,7 @@ The [Stretch Hardware Guides](https://github.com/hello-robot/stretch_hardware_gi
 
 ## License
 
-For details, see the [LICENSE.md](https://github.com/hello-robot/stretch_hardware_guides/blob/master/LICENSE.md) file in the root directory. 
+For details, see the [LICENSE.md](https://github.com/hello-robot/stretch_hardware_guides/blob/master/LICENSE.md) file in the root directory.
 
 ------
-<div align="center"> All materials are Copyright 2022 by Hello Robot Inc. Hello Robot and Stretch are registered trademarks.</div>
+<div align="center"> All materials are Copyright 2022-2024 by Hello Robot Inc. Hello Robot and Stretch are registered trademarks.</div>

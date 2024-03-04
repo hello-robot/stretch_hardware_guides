@@ -1,10 +1,9 @@
-site_name: Stretch Hardware Guides
+site_name: hardware
 site_url: https://docs.hello-robot.com/stretch_hardware_guides
 site_description: "Hello Robot Stretch Hardware Guides"
 copyright: 'Copyright &copy; 2022 Hello Robot Inc'
 site_author: Hello Robot Inc
 use_directory_urls: True
-docs_dir: .
 site_dir: ../site
 
 theme:
@@ -76,13 +75,6 @@ extra:
       link: https://linkedin.com/company/hello-robot-inc
 
 nav:
- - Overview: README.md
- - Stretch Safety Guide: https://docs.hello-robot.com/0.2/stretch-tutorials/getting_started/safety_guide/
- - Stretch RE1:
-     - Battery Maintenance Guide: ./docs/battery_maintenance_guide_re1.md
-     - Hardware Guide: ./docs/hardware_guide_re1.md
-     - DexWrist User Guide: ./docs/dex_wrist_guide_re1.md
- - Stretch 2:
-     - Battery Maintenance Guide: ./docs/battery_maintenance_guide_re2.md
-     - Hardware Guide: ./docs/hardware_guide_re2.md
-     - DexWrist User Guide: ./docs/dex_wrist_guide_re2.md
+ - Safety Guide: safety_guide.md
+ - Stretch 3 Hardware Guide: hardware_guide_stretch_3.md
+ - Battery Maintenance: battery_maintenance_guide_se3.md

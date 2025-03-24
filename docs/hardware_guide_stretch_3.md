@@ -236,8 +236,6 @@ The runstop allows the user to pause the motion of the four primary DOF (base, l
 
 The lift degree of freedom provides vertical translation of the arm. It is driven by a closed loop stepper motor, providing smooth and precise motion through a low gear-ratio belt drive. The ‘shoulder’ includes four mounting holes and a small delivery tray.
 
-[!WARNING] Maximum fastener length for shoulder mounting holes is 7mm - exceeding this depth may cause damage
-
 
 ![image alt text](./images/re2/lift_detail_rs.png)
 
@@ -273,6 +271,13 @@ Pin 1: 12V
 Pin 2: GND</td>
   </tr>
 </table>
+
+!!! warning
+
+    Maximum fastener length for shoulder mounting holes is 7mm - exceeding this depth may cause damage
+
+    ![Screw Max Length](./images/shoulder_mounting_holes_max_length.jpg){: style="max-width:450px"}
+
 Stretch 3 introduces a new lift brake feature. Upon power being disconnected to the lift motor (eg when the robot power switch is turned off), a brake will engage that prevents the arm and shoulder from falling rapidly. Instead, the robot arm will very slowly descend from its current position to the base of the robot. 
 
 It takes approximately 2 minutes for the arm to fully descend from the top of the lift. After about 3 minutes, the brake function will disengage, and the lift will be backdrivable as normal. If it is necessary to backdrive the lift during the period where the brake is engaged, it can be overcome with a sufficient amount of external force. Hold the arm securely when backdriving it in this way.

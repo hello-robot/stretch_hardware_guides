@@ -32,11 +32,11 @@ As shown below, the LED lightbar color provides an indication of the battery vol
 
 ## When To Plug in the Charger
 
-We recommend plugging in the charger whenever:
+We recommend keeping the robot plugged into the charger most of the time. When the robot is off, switch the charger to AGM mode. When the robot is on, switch the charger to SUPPLY mode. Plug the robot into the charger if:
 
 - The battery voltage is below 11V (lightbar is orange). 
-- The robot is not running untethered
 - The robot is producing a periodic beeping sound
+- The robot does not need to be untethered (e.g. you are developing on the robot)
 
 ## Accidental Full Discharge
 
